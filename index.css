@@ -1,0 +1,223 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+nav a {
+font-size: 20px;    
+text-decoration: none;
+padding: 12px 30px;
+margin-top: 20px;
+text-align: center;
+width: 100%;
+}
+
+.headerimg {
+    
+    max-width: 35%;
+    margin-top: 30px;
+    margin-left: 50px;
+   
+
+}
+
+.headerimg img {
+    border-radius: 50%;
+    
+}
+
+nav {
+    display: block;
+    height: 30px;
+    margin-top: 30px;
+    text-align: center;
+   
+}
+
+.planvisit {
+    background-color:#FF764E;
+    color:white;
+    border-radius: 15px;
+    font-family: "Roboto Mono"
+}
+
+.learnpark {
+    background-color: #5ED3EB;
+    color: white;
+    border-radius: 15px;
+    font-family: "Roboto Mono"
+}
+
+.getinvolved {
+    background-color: #FFCD69;
+    color: white;
+    border-radius: 15px;
+    font-family: "Roboto Mono";
+}
+
+.yosemiteheader {
+    font-size: 50px;
+    display: inline-block;
+    margin-top: 1px;
+    font-family: "Roboto Mono"
+}
+
+
+
+section {
+    display: inline-block;
+    font-family: "Roboto Mono"
+
+
+}
+
+.busimage {
+
+    display:inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width:150px;
+    width: 100%;
+    text-align: center;
+}
+
+.busimage img {
+    width: 15%;
+    
+
+}
+
+.footerimg {
+    height: 300px;
+    width: 100%;
+    margin: 0 0 30px 0;
+}
+
+.bottomsection {
+    color: #F9E7DC;
+    
+}
+
+.bottomnav {
+    margin: 0 0 30px 0;
+    font-family: "Roboto Mono"
+}
+
+.firepara {
+    border: hidden 1px;
+    width: 20%;
+    margin: auto;
+    padding-bottom: 2.5%;
+    padding-top: 2.5%;
+    font-family: "Roboto Mono"
+}
+
+.westrong {
+    border: hidden 1px;
+    width: 20%;
+    margin: auto;
+    padding-bottom: 5%;
+    padding-top: 2.5%;
+    font-family: "Roboto Mono"
+}
+
+.yosemiteheader {
+    font-family: "Chelsea Market";
+    display: inline-block;
+    text-align: center;
+   
+}
+
+.firstparagraph {
+    font-family:"Roboto Mono";
+    margin-left: 20px;
+    background-color:#DDB9A3;
+    padding:20px;
+    color:white;
+
+    
+}
+
+.box1 {
+    display: inline-block;
+    width: 55%;
+    vertical-align: middle;
+    padding-bottom: 5%;
+    padding-right: 2.5%;
+    
+}
+
+.explore {
+    border:hidden 1px;
+    margin: auto;
+    width: 100%;
+    padding-bottom: 10%;
+    padding-top: 5%;
+    text-align: center;
+}
+
+.open {
+    border:hidden 1px;
+    margin: auto;
+    width: 100%;
+    text-align:center;
+    padding-bottom:10%;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+div {
+    display: inline-block;
+    width: 100%;
+}
+
+.line1 {
+    margin-bottom: 20px;
+}
