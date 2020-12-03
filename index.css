@@ -53,14 +53,22 @@ font-size: 20px;
 text-decoration: none;
 padding: 12px 30px;
 margin-top: 20px;
+text-align: center;
+width: 100%;
 }
 
 .headerimg {
-    border-radius: 50%;
-    max-width: 300px;
+    
+    max-width: 35%;
     margin-top: 30px;
     margin-left: 50px;
+   
 
+}
+
+.headerimg img {
+    border-radius: 50%;
+    
 }
 
 nav {
@@ -68,6 +76,7 @@ nav {
     height: 30px;
     margin-top: 30px;
     text-align: center;
+   
 }
 
 .planvisit {
@@ -107,18 +116,20 @@ section {
 
 }
 
-.fireimg {
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 50px;
-}
-
 .busimage {
-    display:block;
+
+    display:inline-block;
     margin-left: auto;
     margin-right: auto;
     width:150px;
+    width: 100%;
+    text-align: center;
+}
+
+.busimage img {
+    width: 15%;
+    
+
 }
 
 .footerimg {
@@ -159,22 +170,32 @@ section {
     font-family: "Chelsea Market";
     display: inline-block;
     text-align: center;
-    margin-left: 10%;
+   
 }
 
 .firstparagraph {
-    font-family:"Roboto Mono"
+    font-family:"Roboto Mono";
+    margin-left: 20px;
+    background-color:#DDB9A3;
+    padding:20px;
+    color:white;
+
+    
 }
 
 .box1 {
     display: inline-block;
-    margin-left: 35%;
+    width: 55%;
+    vertical-align: middle;
+    padding-bottom: 5%;
+    padding-right: 2.5%;
+    
 }
 
 .explore {
     border:hidden 1px;
     margin: auto;
-    width: 80%;
+    width: 100%;
     padding-bottom: 10%;
     padding-top: 5%;
     text-align: center;
@@ -183,11 +204,20 @@ section {
 .open {
     border:hidden 1px;
     margin: auto;
-    width: 50%;
+    width: 100%;
     text-align:center;
     padding-bottom:10%;
 }
 
 .bold {
     font-weight: bold;
+}
+
+div {
+    display: inline-block;
+    width: 100%;
+}
+
+.line1 {
+    margin-bottom: 20px;
 }
